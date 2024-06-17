@@ -71,3 +71,5 @@ The application uses the [API Ninjas Nutrition API](https://api-ninjas.com/api/n
 ## Testing
 The application is tested by building the Docker image, running the container, and issuing REST requests to check the correctness of the responses.
 
+## Contact
+If you have any questions or feedback, please reach out to me at [matan10cohen@gmail.com].
