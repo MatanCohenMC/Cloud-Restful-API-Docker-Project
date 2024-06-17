@@ -1,5 +1,7 @@
 # Cloud RESTful API with Docker
 
+<img src="/Images/cloud-api-request-and-response.png" width="450" height="170"/>
+
 ## Overview
 This project is a demonstration of my skills in **Python**, **RESTful API development**, **Docker containerization** and using **MongoDB** as database, with a focus on **cloud computing principles**. It was developed as part of an assignment for the **Cloud Computing and Software Engineering** course taught by Dr. Daniel Yellin. The main focus of the project is to create a **RESTful API** for managing meals and dishes, and to package and deploy the application using **Docker**, with MongoDB as the database solution.
 
