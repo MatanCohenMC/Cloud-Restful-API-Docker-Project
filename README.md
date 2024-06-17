@@ -6,7 +6,6 @@
 This project is a demonstration of my skills in **Python**, **RESTful API development**, **Docker containerization** and using **MongoDB** as database, with a focus on **cloud computing principles**. It was developed as part of an assignment for the **Cloud Computing and Software Engineering** course taught by Dr. Daniel Yellin. The main focus of the project is to create a **RESTful API** for managing meals and dishes, and to package and deploy the application using **Docker**, with MongoDB as the database solution.
 
 ## Main Focus
-The main focus of the project is to:
 - **Integrate with an external API** to retrieve and compute nutritional information for dishes.
 - Use Docker to package the application, ensuring portability and ease of deployment.
 - Leveraging MongoDB for data storage.
