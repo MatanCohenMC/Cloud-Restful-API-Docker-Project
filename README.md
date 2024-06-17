@@ -24,12 +24,14 @@ This project is a demonstration of my skills in **Python**, **RESTful API develo
 ## API Endpoints
 
 ### Dishes
+Runs on http://localhost:5001
 - `POST /dishes`: Add a new dish.
 - `GET /dishes`: Retrieve all dishes.
 - `GET /dishes/{ID or name}`: Retrieve a dish by ID or name.
 - `DELETE /dishes/{ID or name}`: Delete a dish by ID or name.
 
 ### Meals
+Runs on http://localhost:5001
 - `POST /meals`: Add a new meal.
 - `GET /meals`: Retrieve all meals.
 - `GET /meals/{ID or name}`: Retrieve a meal by ID or name.
@@ -37,6 +39,7 @@ This project is a demonstration of my skills in **Python**, **RESTful API develo
 - `PUT /meals/{ID}`: Update a meal by ID.
 
 ### Diets
+Runs on http://localhost:5002
 - `POST /diets`: Add a new diet.
 - `GET /diets`: Retrieve all diets.
 - `GET /diets/{name}`: Retrieve a diet by name.
