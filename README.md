@@ -1,13 +1,13 @@
 # Cloud RESTful API with Docker
 
 ## Overview
-This project is a demonstration of my skills in **Python**, **RESTful API development**, and **Docker containerization**, with a focus on **cloud computing principles**. It was developed as part of an assignment for the **Cloud Computing and Software Engineering** course taught by Dr. Daniel Yellin. The main focus of the project is to create a **RESTful API** for managing meals and dishes, and to package and deploy the application using **Docker**.
+This project is a demonstration of my skills in **Python**, **RESTful API development**, **Docker containerization** and using **MongoDB** as database, with a focus on **cloud computing principles**. It was developed as part of an assignment for the **Cloud Computing and Software Engineering** course taught by Dr. Daniel Yellin. The main focus of the project is to create a **RESTful API** for managing meals and dishes, and to package and deploy the application using **Docker**, with MongoDB as the database solution.
 
 ## Main Focus
 The main focus of the project is to:
 - **Integrate with an external API** to retrieve and compute nutritional information for dishes.
 - Use Docker to package the application, ensuring portability and ease of deployment.
-- Integrate with an external API to compute nutritional information for dishes.
+- Leveraging MongoDB for data storage.
 - Implement Docker Compose to manage multiple services, ensure persistence, and enable recovery from failures.
 
 ## Project Features
@@ -15,7 +15,7 @@ The main focus of the project is to:
 - **Retrieve, update, and delete dishes and meals**: Users can perform CRUD operations on dishes and meals.
 - **Compute nutritional information**: When a dish is added, the application computes its calories, serving size, sodium, and sugar using the API Ninjas Nutrition API.
 - **Uses Docker Compose**: Manages the application built from four services (meals service, diet service, database service, reverse-proxy service).
-- **Ensures persistence**: Makes meals and diet services persistent.
+- **Ensures persistence**: Uses MongoDB to persist meals and diet data.
 - **Implements a reverse-proxy**: Uses NGINX to route requests to the appropriate server.
 - **Handles failures**: Automatically restarts services after a failure and processes requests as if no failure occurred.
 - **Load Balancing**: Implements load balancing for the meal service.
